@@ -1,0 +1,8 @@
+import math
+n=int(input('enter number:'))
+m=math.sqrt(n)
+print('square root is',m)
+if m>10:
+    print('Hello')
+else:
+    print('Hi')
