@@ -1,0 +1,12 @@
+n=int(input('enter number:'))
+max=0
+min=10
+while n>0:
+    r=n%10
+    if r<min:
+        min=r
+    if r>max:
+        max=r
+    n=n//10
+print('Max=',max)
+print('min=',min)
