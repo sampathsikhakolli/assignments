@@ -1,0 +1,4 @@
+n=int(input('enter no of number:'))
+num=list(map(int,input('enter numbers:').split()))
+num.sort()
+print(num)
