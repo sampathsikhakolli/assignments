@@ -1,0 +1,9 @@
+n=int(input('enter no of number:'))
+num=list(map(int,input('enter numbers').split()))
+for i in num:
+    flag=0
+    for j in num:
+        if i==j:
+            flag=flag+1
+    if flag==1:
+        print(i)
